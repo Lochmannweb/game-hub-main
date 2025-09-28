@@ -19,7 +19,7 @@ function ParallaxWrapper() {
   return (
     <Box
       className="parallax"
-      bgImage={colorMode === "dark" ? "url('bg.jpg')" : "none"}
+      bgImage={colorMode === "dark" ? "url('background.jpg')" : "none"}
       minH="100vh"
       bgAttachment="fixed"
       bgPosition="center"
